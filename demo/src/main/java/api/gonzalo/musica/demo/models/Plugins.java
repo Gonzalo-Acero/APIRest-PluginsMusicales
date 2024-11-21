@@ -17,6 +17,6 @@ public class Plugins {
     private String nombre;
     private String fabricante;
     private Long costo;
-    private String descripcion;
+    private String efecto;
     //private String img;
 }
