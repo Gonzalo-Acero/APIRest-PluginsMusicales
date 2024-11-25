@@ -2,7 +2,7 @@
 # API REST - PLUGINS MUSICALES
 
 ##  🎵 Descripcion del proyecto
-En este proyecto desarrolle una API Rest con Java 17 + Spring Boot 3 que consiste en un CRUD de plugins para trabajar el sonido.
+En este proyecto desarrolle una `API Rest` con Java 17 + Spring Boot 3 que consiste en un `CRUD` de plugins para trabajar el sonido.
 
 Todas las imagenes descriptivas del proyecto se encuentran en este repositorio.
 
