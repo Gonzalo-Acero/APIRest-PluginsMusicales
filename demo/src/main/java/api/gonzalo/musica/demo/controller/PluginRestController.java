@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("api/plugins")
+@RequestMapping("/api/plugins/")
 public class PluginRestController {
     private PluginService pluginService;
 
@@ -43,22 +43,22 @@ public class PluginRestController {
         pluginService.eliminarPluginPorId(id);
     }
 
-    @GetMapping(value = "ListarNombre{nombre}", headers = "Accept=application/json")
+    @GetMapping(value = "listarPorNombre/{nombre}", headers = "Accept=application/json")
     public List<Plugins> listarPorNombre(@PathVariable String nombre){
         return pluginService.buscarPorNombre(nombre);
     }
 
-    @GetMapping(value = "ListarFabricante{fabricante}", headers = "Accept=application/json")
+    @GetMapping(value = "listarPorFabricante/{fabricante}", headers = "Accept=application/json")
     public List<Plugins> listarPorFabricante(@PathVariable String fabricante){
         return pluginService.buscarPorFabricante(fabricante);
     }
 
-    @GetMapping(value = "ListarCosto{costo}", headers = "Accept=application/json")
+    @GetMapping(value = "listarPorCosto/{costo}", headers = "Accept=application/json")
     public List<Plugins> listarPorCosto(@PathVariable Long costo){
         return pluginService.buscarPorCosto(costo);
     }
 
-    @GetMapping(value = "ListarEfecto{efecto}", headers = "Accept=application/json")
+    @GetMapping(value = "listarPorEfecto/{efecto}", headers = "Accept=application/json")
     public List<Plugins> listarPorEfecto(@PathVariable String efecto){
         return pluginService.buscarPorEfecto(efecto);
     }
