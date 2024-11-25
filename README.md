@@ -1,4 +1,4 @@
-![Imagen del Proyecto]()
+![Imagen del Proyecto](https://github.com/Gonzalo-Acero/APIRest-PluginsMusicales/blob/main/img/Api%20Musica/IMG_proyecto.png)
 # API REST - PLUGINS MUSICALES
 
 ## Descripcion del proyecto
