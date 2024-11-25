@@ -1,3 +1,4 @@
+![Imagen del Proyecto]()
 # API REST - PLUGINS MUSICALES
 
 ## Descripcion del proyecto
